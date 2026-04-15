@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.top {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.field {
+  min-height: 300px;
+  border: 1px solid #999;
+  padding: 20px;
+  position: relative;
+  user-select: none;
+}
+
+.letter {
+  display: inline-block;
+  font-size: 28px;
+  margin-right: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.selected {
+  color: red;
+}
+
+.select-box {
+  position: absolute;
+  border: 1px dashed blue;
+  background: rgba(0, 0, 255, 0.1);
+  display: none;
+  pointer-events: none;
+}
